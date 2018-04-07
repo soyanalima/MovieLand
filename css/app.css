@@ -1,0 +1,171 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 2.5vh;
+  background-color:#25283B;
+}
+
+#header-container {
+  background-color:#D5E6E9;
+  color: #0D1627;
+  
+}
+
+#header-container img{
+max-width: 70px;
+padding: 10px; 
+}
+
+
+#tab2{
+background-color: #075D90;
+
+}
+
+#info-container{
+  background-color: #075D90;
+  color: white;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+
+#menu-container {
+  background-image:url(http://baltimoresportsandlife.com/wp-content/uploads/2016/07/Movies.jpg);;
+}  
+
+input.form-control:focus {
+  border-color: #86B5C9;
+}
+
+.myIcon {
+  display: none;
+}
+
+.myLogin {
+  display: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+#imagen-container{
+  background-image:url(http://baltimoresportsandlife.com/wp-content/uploads/2016/07/Movies.jpg);
+}
+
+.img-responsive {
+  position: relative;
+  max-width: 100%;
+
+ } 
+
+
+
+#footer-container {
+  background-color: #25283B;
+  color: white;
+}
+
+#footer-container .form-control {
+  width: inherit;
+}
+
+#footer-container .nav-link {
+  color: white;
+}
+
+#productos-container {
+  margin-bottom: 2em;
+
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  max-width: 60%;
+  
+}
+
+#productos-container .list-group-item-action.active {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  #productos-container .filtros-toggle {
+    margin-bottom: 1em;
+  }
+}
+
+.pagination-container {
+  margin-bottom: 0 !important;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+.page-link, .page-link:focus, .page-link:hover {
+  color: #8ab542;
+}
+
+@media (max-width: 768px) {
+  #menu-container .form-control {
+    width: inherit;
+  } 
+}
+
+ul.tabs {
+  margin: 0;
+  float: left;
+  list-style: none;
+  height: 32px; /*--Set height of tabs--*/
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  width: 100%;
+}
+ul.tabs li {
+  float: left;
+  margin: 0;
+  height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+  line-height: 31px; /*--Vertically aligns the text within the tab--*/
+  border: 1px solid #999;
+  border-left: none;
+  margin-bottom: -1px; /*--Pull the list item down 1px--*/
+  overflow: hidden;
+  position: relative;
+}
+ul.tabs li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 1.2em;
+  border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+  outline: none;
+}
+ul.tabs li a:hover {
+  background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not
+        listen to the hover properties--*/
+  border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with
+        its content--*/
+}
+
+.tab_container {
+  border: 1px solid #999;
+  border-top: none;
+  overflow: hidden;
+  clear: both;
+  float: left; width: 100%;
+}
+.tab_content {
+  font-size: 1.2em;
+}
